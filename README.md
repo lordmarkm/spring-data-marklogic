@@ -2,7 +2,7 @@
 
 Library for using integrating with Marklogic using spring-data conventions. For example: 
 
-```
+```java
 import com.baldy.marklogic.repo.MarkLogicRepository;
 import com.baldy.marklogic.test.entity.Taxi;
 
@@ -15,7 +15,7 @@ will instruct Spring to instantiate a MarkLogicRepositoryImpl that handles Taxi 
 
 Special configuration is only the declaration of the marklogic repository bean factory:
 
-```
+```java
 @Configuration
 @EnableJpaRepositories(
     basePackageClasses = TaxiService.class,
