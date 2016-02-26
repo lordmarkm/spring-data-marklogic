@@ -1,6 +1,6 @@
 # spring-data-marklogic
 
-Library for using integrating with Marklogic using spring-data conventions. For example: 
+Library for integrating with Marklogic using spring-data conventions. For example: 
 
 ```java
 import com.baldy.marklogic.repo.MarkLogicRepository;
